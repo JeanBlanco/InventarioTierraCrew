@@ -8,7 +8,7 @@ class SalesScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Ventas'),
-        backgroundColor: Colors.deepPurple[900],
+        backgroundColor: Colors.red[900],
       ),
       body: const Center(
         child: Text('Pantalla de Ventas'),

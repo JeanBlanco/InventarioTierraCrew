@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Tierra Crew'),
-        backgroundColor: Colors.deepPurple[900],
+        backgroundColor: Colors.red[900],
       ),
       body: Center(
         child: Column(
@@ -29,7 +29,7 @@ class HomeScreen extends StatelessWidget {
               context,
               'Pedidos',
               Icons.shopping_cart,
-              Colors.deepPurple[900]!,
+              Colors.red[900]!,
               const OrdersScreen(),
             ),
             buildMenuButton(
@@ -43,7 +43,7 @@ class HomeScreen extends StatelessWidget {
               context,
               'Configuración',
               Icons.settings,
-              Colors.deepPurple[900]!,
+              Colors.red[900]!,
               const SettingsScreen(),
             ),
           ],

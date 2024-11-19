@@ -15,10 +15,10 @@ class TierraCrewApp extends StatelessWidget {
       title: 'Tierra Crew',
       theme: ThemeData(
         primaryColor: Colors.yellow[700],
-        hintColor: Colors.deepPurple[900],
+        hintColor: Colors.red[900],
         fontFamily: 'Roboto',
       ),
-      home: HomeScreen(),
+      home: const HomeScreen(),
     );
   }
 }

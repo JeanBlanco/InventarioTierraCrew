@@ -15,7 +15,7 @@ class _InventoryScreenState extends State<InventoryScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Inventarios'),
-        backgroundColor: Colors.deepPurple[900],
+        backgroundColor: Colors.red[900],
       ),
       body: Center(
         child: Column(
@@ -24,7 +24,7 @@ class _InventoryScreenState extends State<InventoryScreen> {
             buildOptionButton(context, 'Cargar Producto', Icons.add_circle,
                 Colors.yellow[700]!, _addProduct),
             buildOptionButton(context, 'Descargar Producto',
-                Icons.remove_circle, Colors.deepPurple[900]!, _removeProduct),
+                Icons.remove_circle, Colors.red[900]!, _removeProduct),
             buildOptionButton(context, 'Ver Productos', Icons.list,
                 Colors.yellow[700]!, _viewProducts),
             buildOptionButton(

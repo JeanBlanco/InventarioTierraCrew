@@ -10,7 +10,7 @@ class ViewProductsScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Ver Productos'),
-        backgroundColor: Colors.deepPurple[900],
+        backgroundColor: Colors.red[900],
       ),
       body: ListView.builder(
         itemCount: products.length,
